@@ -1,0 +1,53 @@
+{
+  "name": "fwe-connect4",
+  "version": "1.0.0",
+  "description": "Connect4 Game ",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "@types/socket.io": "^3.0.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "class-validator": "^0.13.1",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.0",
+    "node-fetch": "^2.6.1",
+    "tsc": "^2.0.3",
+    "typeorm": "^0.2.32",
+    "typescript": "^4.4.2",
+    "watch": "^1.0.2",
+    "yup": "^0.32.9",
+    "elo-calculator": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/node": "^16.7.8",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "tsc-watch": "^4.2.9",
+    "tslint": "^6.1.3",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-etc": "^1.13.10",
+    "tslint-plugin-prettier": "^2.3.0"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "start": "tsc-watch --outDir ./dist --onSuccess 'node dist/index.js'",
+    "build": "tsc -b .",
+    "typeorm": "typeorm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

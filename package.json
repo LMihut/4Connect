@@ -1,0 +1,20 @@
+{
+  "name": "connect4",
+  "version": "1.0.0",
+  "description": "FWE Semester Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-script start",
+    "build": "react-script build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.fbi.h-da.de/sthatrab/4Gewinnt.git"
+  },
+  "author": "Felix, Haythem,  Jo, Lavinia, Nikita",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
